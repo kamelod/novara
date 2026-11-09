@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NOVARA — practical digital opportunities, tools and guides.">
+<title>NOVARA — Digital opportunities</title>
+<style>
+:root{color-scheme:dark;--bg:#080b16;--panel:#11172a;--muted:#aab3cc;--line:#26304a;--a:#8b7cff;--b:#45d6d0}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#24204b 0,transparent 38%),var(--bg);color:#f6f7ff;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1080px;margin:auto;padding:24px}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px}.logo{font-size:24px;font-weight:850;letter-spacing:4px}.lang button{background:#171d32;border:1px solid var(--line);color:#fff;padding:8px 11px;border-radius:10px;margin-left:5px}
+.hero{padding:86px 0 58px;max-width:760px}.eyebrow{color:var(--b);font-size:12px;letter-spacing:3px;text-transform:uppercase}.hero h1{font-size:clamp(42px,8vw,76px);line-height:1.02;letter-spacing:-3px;margin:16px 0}.grad{background:linear-gradient(90deg,#a99cff,#55e1d4);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{color:var(--muted);font-size:18px;max-width:620px}.cta{display:inline-block;margin-top:18px;padding:13px 20px;border-radius:13px;background:linear-gradient(100deg,#7969ef,#32bdbb);color:#080b16;text-decoration:none;font-weight:750}
+.section{margin:32px 0 70px}.section h2{font-size:28px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.card{background:linear-gradient(145deg,#151d33,#0e1425);border:1px solid var(--line);border-radius:18px;padding:22px}.card .ico{font-size:26px}.card h3{margin:10px 0 5px}.card p,.note{color:var(--muted)}.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}.step{padding:18px;border-left:2px solid var(--a);background:#101629;border-radius:0 14px 14px 0}.num{color:var(--b);font-weight:800}footer{border-top:1px solid var(--line);padding:25px 0 45px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body><div class="wrap">
+<header class="nav"><div class="logo">NOVARA<span class="grad">.</span></div><div class="lang"><button onclick="setLang('ru')">RU</button><button onclick="setLang('ua')">UA</button><button onclick="setLang('en')">EN</button></div></header>
+<main>
+<section class="hero"><div class="eyebrow" id="eyebrow">ТВОЯ ЦИФРОВАЯ ТОЧКА СТАРТА</div><h1 id="headline">Открой новые<br><span class="grad">возможности онлайн.</span></h1><p id="intro">Подборка полезных цифровых инструментов, идей и понятных инструкций, которые помогут сделать первые шаги в интернете.</p><a class="cta" href="#explore" id="cta">Исследовать возможности ↗</a></section>
+<section class="section" id="explore"><h2 id="exploreTitle">Исследуй направления</h2><div class="grid">
+<article class="card"><div class="ico">✦</div><h3 id="c1">Цифровые инструменты</h3><p id="p1">Сервисы для продуктивности, творчества и повседневных задач.</p></article>
+<article class="card"><div class="ico">↗</div><h3 id="c2">Онлайн-возможности</h3><p id="p2">Изучай легальные способы развивать навыки и находить удалённые проекты.</p></article>
+<article class="card"><div class="ico">◎</div><h3 id="c3">Практические гиды</h3><p id="p3">Пошаговые материалы для уверенного старта в цифровом мире.</p></article>
+</div></section>
+<section class="section"><h2 id="startTitle">Начни с простого</h2><div class="steps"><div class="step"><div class="num">01</div><b id="s1">Выбери направление</b><div class="note" id="d1">Определи, что тебе интересно и полезно.</div></div><div class="step"><div class="num">02</div><b id="s2">Изучи инструменты</b><div class="note" id="d2">Сравни возможности и условия сервисов.</div></div><div class="step"><div class="num">03</div><b id="s3">Действуй постепенно</b><div class="note" id="d3">Проверяй информацию и не вкладывай деньги, которые не готов потерять.</div></div></div></section>
+</main><footer id="foot">NOVARA — независимый информационный проект. Доход не гарантируется. Всегда проверяй условия сторонних сервисов.</footer>
+</div>
+<script>
+const words={
+ru:['ТВОЯ ЦИФРОВАЯ ТОЧКА СТАРТА','Открой новые<br><span class="grad">возможности онлайн.</span>','Подборка полезных цифровых инструментов, идей и понятных инструкций, которые помогут сделать первые шаги в интернете.','Исследовать возможности ↗','Исследуй направления','Цифровые инструменты','Сервисы для продуктивности, творчества и повседневных задач.','Онлайн-возможности','Изучай легальные способы развивать навыки и находить удалённые проекты.','Практические гиды','Пошаговые материалы для уверенного старта в цифровом мире.','Начни с простого','Выбери направление','Определи, что тебе интересно и полезно.','Изучи инструменты','Сравни возможности и условия сервисов.','Действуй постепенно','Проверяй информацию и не вкладывай деньги, которые не готов потерять.','NOVARA — независимый информационный проект. Доход не гарантируется. Всегда проверяй условия сторонних сервисов.'],
+ua:['ТВОЯ ЦИФРОВА ТОЧКА СТАРТУ','Відкрий нові<br><span class="grad">можливості онлайн.</span>','Добірка корисних цифрових інструментів, ідей та зрозумілих інструкцій для перших кроків в інтернеті.','Дослідити можливості ↗','Досліджуй напрямки','Цифрові інструменти','Сервіси для продуктивності, творчості та щоденних завдань.','Онлайн-можливості','Вивчай легальні способи розвивати навички та знаходити віддалені проєкти.','Практичні гіди','Покрокові матеріали для впевненого старту в цифровому світі.','Почни з простого','Обери напрямок','Визнач, що тобі цікаво та корисно.','Вивчи інструменти','Порівняй можливості й умови сервісів.','Дій поступово','Перевіряй інформацію та не вкладай гроші, які не готовий втратити.','NOVARA — незалежний інформаційний проєкт. Дохід не гарантовано. Завжди перевіряй умови сторонніх сервісів.'],
+en:['YOUR DIGITAL STARTING POINT','Discover new<br><span class="grad">opportunities online.</span>','A curated collection of useful digital tools, ideas and practical guides to help you take your first steps online.','Explore opportunities ↗','Explore categories','Digital tools','Services for productivity, creativity and everyday tasks.','Online opportunities','Learn legitimate ways to build skills and find remote projects.','Practical guides','Step-by-step resources for a confident start in the digital world.','Start simple','Choose a direction','Decide what is useful and interesting to you.','Explore the tools','Compare services, features and terms.','Move step by step','Verify information and never risk money you cannot afford to lose.','NOVARA is an independent informational project. Income is not guaranteed. Always check third-party service terms.']
+};
+const ids=['eyebrow','headline','intro','cta','exploreTitle','c1','p1','c2','p2','c3','p3','startTitle','s1','d1','s2','d2','s3','d3','foot'];
+function setLang(l){document.documentElement.lang=l;ids.forEach((id,i)=>document.getElementById(id).innerHTML=words[l][i]);}
+</script></body></html>
